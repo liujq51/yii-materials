@@ -1,5 +1,5 @@
-*required : 必须值验证属性
--[['字段名'],required,'requiredValue'=>'必填值','message'=>'提示信息']; #说明:CRequiredValidator 的别名, 确保了特性不为空. 
+* required : 必须值验证属性
+- [['字段名'],required,'requiredValue'=>'必填值','message'=>'提示信息']; #说明:CRequiredValidator 的别名, 确保了特性不为空. 
 *email : 邮箱验证
 -['email', 'email']; #说明:CEmailValidator的别名,确保了特性的值是一个有效的电邮地址. 
 match : 正则验证
