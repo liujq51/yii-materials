@@ -1,5 +1,9 @@
 # yii-materials
 yii2资料收集
+
+## 手册
+- [Rules](https://github.com/xihadao/yii-materials/blob/master/rules.md)
+
 ## Docs 文档
 
 - [Yii Framework 2.0 类参考手册](http://www.yiiframework.com/doc-2.0/index.html)
