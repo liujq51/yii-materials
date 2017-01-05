@@ -33,28 +33,28 @@
 - [['username', 'email'], 'filter', 'filter' => 'trim', 'skipOnArray' => true]; #说明:CFilterValidator 的别名, 使用一个filter转换属性. 
 
 ###in : 范围
--['level', 'in', 'range' => [1, 2, 3]]; #说明:CRangeValidator 的别名,确保了特性出现在一个预订的值列表里. 
+- ['level', 'in', 'range' => [1, 2, 3]]; #说明:CRangeValidator 的别名,确保了特性出现在一个预订的值列表里. 
 
 ### unique : 唯一性
--['username', 'unique'] #说明:CUniqueValidator 的别名,确保了特性在数据表字段中是唯一的. 
+- ['username', 'unique'] #说明:CUniqueValidator 的别名,确保了特性在数据表字段中是唯一的. 
 
 ### integer : 整数
--['age', 'integer'];
+- ['age', 'integer'];
 
 ###number : 数字
--['salary', 'number'];
+- ['salary', 'number'];
 
 ###double : 双精度浮点型
--['salary', 'double'];
+- ['salary', 'double'];
 
 ###date : 日期
--[['from', 'to'], 'date'];
+- [['from', 'to'], 'date'];
 
 ###string : 字符串
--['username', 'string', 'length' => [4, 24]];
+- ['username', 'string', 'length' => [4, 24]];
 
 ###boolean : 是否为一个布尔值
--['字段名', 'boolean', 'trueValue' => true, 'falseValue' => false, 'strict' => true]; #说明:CBooleanValidator 的别名 
+- ['字段名', 'boolean', 'trueValue' => true, 'falseValue' => false, 'strict' => true]; #说明:CBooleanValidator 的别名 
 
 ###image :是否为有效的图片文件
--['primaryImage','image', 'extensions' => 'png, jpg,jpeg','minWidth' => 100,'maxWidth' => 1000,'minHeight' => 100,'maxHeight' => 1000,]
+- ['primaryImage','image', 'extensions' => 'png, jpg,jpeg','minWidth' => 100,'maxWidth' => 1000,'minHeight' => 100,'maxHeight' => 1000,]
