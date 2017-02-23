@@ -15,6 +15,7 @@ yii2资料收集
 - [yii2-cookbook](https://github.com/samdark/yii2-cookbook)
 - [yii2-Cookbook 系列教程](http://www.tutorial-zoo.com/yii-2)
 - [yii2-coding-standards](https://github.com/yiisoft/yii2-coding-standards)
+- [YII2常用教程](http://www.fancyecommerce.com/)
 
 ## 基于 Yii2 的开源程序
 - [GetYii](https://github.com/iiyii/getyii)：论坛
